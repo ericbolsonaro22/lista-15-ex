@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to top, skyblue, white);
+    color: black;
+    height: 100vh;
+    padding-left: 45px;
+    font-size: 1.5rem;
+    cursor: crosshair;
+}
+
+input{
+    width: 200px;
+    height: 23px;
+    text-align: center;
+    border: solid black 3px;
+}
+
+input:hover{
+    transition: 2s;
+    width: 16rem;
+    height: 3rem;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    color: black;
+    border-radius: 3px;
+    border: solid black 3px;
+    font-size: large;
+    cursor: grab;
+}
+
+button:hover{
+    transition: 0.5s;
+    width: 9.7rem;
+    height: 4.2rem;
+}
+
+.group{
+    display: flex;
+    flex-direction: to top column;
+    padding: 12px;
+}
+
+.group-item {
+    margin: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    width: 150px;
+    height: 60px;
+    color: black;
+    border-radius: 3px;
+    border: solid black 3px;
+    font-size: large;
+    cursor: grab;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.5s;
+    width: 9.7rem;
+    height: 4.2rem;
+}

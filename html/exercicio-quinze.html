@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Exercício 15</title>
+    <script src="../js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <button class="group-item" onclick="location.href= '../index.html'">Voltar</button>
+        <br><br>
+    </header>
+    <main>
+            <label for="tipoCombustivel">Tipo de Combustível:</label>
+            <select id="tipoCombustivel" required>
+                <option value="G">Gasolina</option>
+                <option value="A">Álcool</option>
+            </select>
+            <br>
+            <br>
+            <label for="litros">Quantidade de Litros:</label>
+            <br>
+            <input type="number" id="litros">
+            <br><br>
+            <button onclick="exercicioQuinze()">Calcular</button>
+            <br><br>
+            <p id="respostaQuinze"></p>
+    </main>
+</body>
+</html>

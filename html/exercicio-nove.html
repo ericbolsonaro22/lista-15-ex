@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Exercício 9</title>
+    <script src="../js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <button class="group-item" onclick="location.href= '../index.html'">Voltar</button>
+        <br><br>
+    </header>
+    <main>
+            <label for="numUm">Primeiro número:</label>
+            <br>
+            <input type="number" id="numUm">
+            <br><br>
+            <label for="numDois">Segundo número:</label>
+            <br>
+            <input type="number" id="numDois">
+            <br><br>
+            <select name="operacao" id="operacao">
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+            <br><br>
+            <button onclick="exercicioNove()">Calcular</button>
+            <br><br>
+            <p id="respostaNove"></p>
+    </main>
+</body>
+</html>
